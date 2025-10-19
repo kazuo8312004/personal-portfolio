@@ -46,5 +46,6 @@ This personal portfolio was built with the following technologies:
 
 # Live Demo
 ## Github Pages URL:
-
+[https://kazuo8312004.github.io/personal-portfolio/](https://kazuo8312004.github.io/personal-portfolio/)
 ## Demo Recording
+[https://drive.google.com/drive/folders/1r9eif-nh-fFKmQ4h-B_gDBZCZTcHCBZ8?usp=sharing](https://drive.google.com/drive/folders/1r9eif-nh-fFKmQ4h-B_gDBZCZTcHCBZ8?usp=sharing)
