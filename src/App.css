@@ -1,0 +1,198 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+.dark-mode body {
+  background: #f5f5f5 !important;
+  color: #333333 !important;
+}
+
+.dark-mode .neural-background {
+  background: linear-gradient(135deg, #e0e0e0 0%, #f0f0f0 50%, #ffffff 100%) !important;
+}
+
+.dark-mode .glass {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dark-mode .glass-strong {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.dark-mode header {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(25px) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dark-mode .nav-links a {
+  color: #333333 !important;
+}
+
+.dark-mode .nav-links a.active {
+  color: #9370db !important;
+  background: linear-gradient(135deg, rgba(147, 112, 219, 0.15), rgba(255, 105, 180, 0.1)) !important;
+  box-shadow: 0 0 20px rgba(147, 112, 219, 0.4) !important;
+  border: 1px solid rgba(147, 112, 219, 0.3) !important;
+}
+
+.dark-mode .mobile-nav {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(25px) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark-mode .mobile-nav a {
+  color: #333333 !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.dark-mode .mobile-nav a:hover {
+  background: rgba(147, 112, 219, 0.1) !important;
+  color: #9370db !important;
+}
+
+.dark-mode .hero h1 {
+  background: linear-gradient(135deg, #9370db 0%, #ff69b4 30%, #e0a3ff 60%, #9370db 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.dark-mode .hero-description p {
+  color: #666666 !important;
+}
+
+.dark-mode .hero-stat {
+  background: linear-gradient(135deg, rgba(147, 112, 219, 0.06), rgba(255, 105, 180, 0.04)) !important;
+  border: 1px solid rgba(147, 112, 219, 0.15) !important;
+}
+
+.dark-mode .hero-stat-number {
+  color: #9370db !important;
+}
+
+.dark-mode .hero-stat-label {
+  color: #666666 !important;
+}
+
+.dark-mode .section-title {
+  color: #00bfff !important;
+}
+
+.dark-mode .feature-content h3 {
+  color: #333333 !important;
+}
+
+.dark-mode .feature-content p {
+  color: #666666 !important;
+}
+
+.dark-mode .hexagon h4 {
+  color: #333333 !important;
+}
+
+.dark-mode .hexagon p {
+  color: #666666 !important;
+}
+
+.dark-mode .timeline-content h4 {
+  color: #333333 !important;
+}
+
+.dark-mode .timeline-content p {
+  color: #666666 !important;
+}
+
+.dark-mode .contact-info h3 {
+  color: #00bfff !important;
+}
+
+.dark-mode .contact-info p {
+  color: #666666 !important;
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group textarea {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  color: #333333 !important;
+}
+
+.dark-mode .form-group input::placeholder,
+.dark-mode .form-group textarea::placeholder {
+  color: #999999 !important;
+}
+
+.dark-mode footer {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.dark-mode .footer-links a {
+  color: #666666 !important;
+}
+
+.dark-mode .footer-copyright {
+  color: #999999 !important;
+}
+
+.dark-mode .footer-design {
+  color: #999999 !important;
+}
+
+.dark-mode .footer-design a {
+  color: #9370db !important;
+}
