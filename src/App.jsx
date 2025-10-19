@@ -1,5 +1,6 @@
 import './App.css'
 import { useState } from 'react'
+import resume from '/Kirk_Del_Pilar_Resume.pdf'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -286,7 +287,7 @@ function App() {
           <div className="resume-link glass">
             <h4>My Resume</h4>
             <p>Download my detailed resume.</p>
-            <a href="/Kirk_Del_Pilar_Resume.pdf" download="Kirk_Del_Pilar_Resume.pdf">Download Resume</a>
+            <a href={resume} download="Kirk_Del_Pilar_Resume.pdf">Download Resume</a>
           </div>
         </div>
       </section>
